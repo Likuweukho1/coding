@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>semantic</title>
+    </head>
+            <body>
+                <header>
+                    <h1>Navigation Links</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#contacts">Contacts</a></li>
+                            <li><a href="#post">Post</a></li>
+
+                        </ul>
+                    </nav>
+                </header>
+                
+                <main>
+                    <section>
+                        <article>
+                            <h2>Facts about codingal</h2>
+                            <p>Codingal is a place where you can learn of how to code .</p>
+                        </article>
+
+                        <aside>
+                            <p>A study was shoown that doing coding can help with you brain and foucus in class</p></aside>
+                    </section>
+                
+                </main>
+
+                <footer>
+                    <p>Copyright &copy; 2025</p>
+                    <p>Contact us +278892780</p>
+                </footer>
+                </body>
+                </html>
