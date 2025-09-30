@@ -1,0 +1,25 @@
+/*global selector */
+*{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+h3{
+    color: gold;
+}
+
+/* Class selector */
+
+.myi{
+    color: darkolivegreen;
+}
+
+/*id selector*/
+
+#ny{
+    color:brown;
+}
+
+h5, p{
+    color: red;
+}
