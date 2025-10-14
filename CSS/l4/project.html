@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+h1 {
+    color: #58A6FF;
+}
+
+/* Attribute Selector */
+a {
+    color: #8B949E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1F6FEB;
+}
+
+/* Child Selector */
+ul > li {
+    font-weight: bold;
+}
+
+/* Sibling Selector */
+h1 + p {
+    background-color: #161B22;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* :hover Pseudo-class */
+ul li:hover {
+    color: #4F8CC9;
+}
+
+/* :nth-child(n) Pseudo-class */
+ul li:nth-child(3) {
+    background-color: #21262D;
+}
+
+/* :not(selector) Pseudo-class */
+p:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+/* ::before Pseudo-element */
+ul li::before {
+    content: "🚀 ";
+}
+
+/* ::after Pseudo-element */
+a::after {
+    content: " 🌌";
+}
+
+/* ::first-letter Pseudo-element */
+p::first-letter {
+    font-size: 200%;
+    color: #FF7B72;
+}
+</style>
+</head>
+
+  <body>
+      <h1>Welcome to Condingal</h1>
+      <ul>
+          <li>Codingal is a fun place to be</li>
+          <li>With some good teachers and fun activities</li>
+          <li>You can create some of the best things with your image</li>
+          <li>Create anything you imagine</li>
+          <li>And uncover your best hobbies with Codingal</li>
+      </ul>
+      <p>What you'll find:
+Comprehensive performance analysis
+Personalized learning recommendations
+Skill level assessments and next steps
+Detailed attendance and engagement metrics
+Downloadable PDF reports and public sharing options</p>
+    
+      <p>And Refer your friends to Codingal and earn one month class
+
+      </p>
+      <a href="#">Join our Mission</a>
+      <a href="#">Latest coding News</a>
+      <a href="#">Gallery of the Universe of Codingal</a>
+  </body>
+
+</html>
