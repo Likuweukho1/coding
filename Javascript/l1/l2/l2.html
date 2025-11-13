@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Functions</title>
+    </head>
+    <body>
+        <button onclick="mult(10)">Execute JS Function MUltiplication</button>
+        <button onclick="add(10,5)">Execute JS Function Add</button>
+        <button onclick="sub(10,5)">Execute JS Function</button>
+        <p id="mul"></p>
+
+        <script>
+            function mult(a,b){
+                if (b===undefined){
+                    b=2
+                }
+                document.getElementById("mul").innerHTML= a*b
+            }
+        function add(a,b){
+            if (b===undefined){
+                b=2
+            }
+            document.write(a+b)
+        }
+        function sub(a,b){
+            if (b===undefined){
+                b=2
+            }
+            document.write(a-b)
+        }
+        </script>
+    </body>
+</html>
