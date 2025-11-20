@@ -9,24 +9,30 @@
         <p id="mul"></p>
 
         <script>
-            function mult(a,b){
-                if (b===undefined){
-                    b=2
-                }
-                document.getElementById("mul").innerHTML= a*b
-            }
-        function add(a,b){
+
+           y = 7
+           function mult(a,b){
             if (b===undefined){
                 b=2
+                x = 10
             }
-            document.write(a+b)
+            document.write(x*y+"<br>")
+            document.getElementById("mul").innerHTML= a*b
+
+           }
+           function add(a,b){
+            if (b===undefined){
+                b=2
+           }
+           document.write(a+b)
         }
-        function sub(a,b){
+        function subt(a,b){
             if (b===undefined){
                 b=2
             }
             document.write(a-b)
-        }
+        }        document.write(y*x)
         </script>
-    </body>
+        
+</body>
 </html>
